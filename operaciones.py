@@ -1,1 +1,1 @@
-print
+git remote add origin https://github.com/JeniferRome/qaejemplo.git
