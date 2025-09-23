@@ -23,10 +23,10 @@ def test_sumar_varios(a,b,esperado):
 
 
 
-    def test_restar_com_fixture(numeros):
-        a,b = numeros
-        assert calculadora.restar(a,b) == 0
+def test_restar_com_fixture(numeros):
+    a,b = numeros
+    assert calculadora.restar(a,b) == 0
 
-    def test_sumar_com_fixture(numeros):
-        a,b = numeros
-        assert calculadora.sumar(a,b) == 10
+def test_sumar_com_fixture(numeros):
+    a,b = numeros
+    assert calculadora.sumar(a,b) == 10
