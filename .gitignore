@@ -1,0 +1,13 @@
+﻿# Ignorar carpetas de compilación de Python
+_pycache_/
+*.pyc
+
+# Ignorar entorno virtual
+venv/
+.env/
+
+# Ignorar cachés de pytest
+.pytest_cache/
+
+# Ignorar configuración de VSCode
+.vscode/
