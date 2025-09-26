@@ -21,6 +21,7 @@ def test_division_por_cero():
 def test_sumar_varios(a,b,esperado):
     assert calculadora.sumar(a,b) == esperado
 
+@pytest.mark.listo
 
 
 def test_restar_com_fixture(numeros):
@@ -30,3 +31,11 @@ def test_restar_com_fixture(numeros):
 def test_sumar_com_fixture(numeros):
     a,b = numeros
     assert calculadora.sumar(a,b) == 10
+
+@pytest.mark.listo
+def test_sumar_listo():
+    assert calculadora.sumar(1,3) == 4
+
+
+
+    
